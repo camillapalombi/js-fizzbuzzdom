@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(4, 66, 68);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+}
+
+.squares-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
