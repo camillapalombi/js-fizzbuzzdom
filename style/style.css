@@ -8,7 +8,7 @@ body {
     background-color: rgb(4, 66, 68);
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 main {
@@ -24,9 +24,21 @@ main {
 .square {
     width: 100px;
     height: 100px;
-    background-color: brown;
+    background-color: rgb(5, 9, 253);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+
+.green {
+    background-color: rgb(10, 165, 113);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
 }
