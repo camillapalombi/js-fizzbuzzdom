@@ -35,28 +35,33 @@ for (let i = 1; i <= 100; i++) {
     let elemento = document.createElement('div');
     elemento.classList.add('square');
     elemento.innerHTML = i ;
+    
 
     if (i % 15 == 0) {
 
         elemento.classList.add('red');
-        elemento.innerHTML = 'FizzBuzz'
+        elemento.innerHTML = 'FizzBuzz';
+        console.log('FizzBuzz');
 
     } else if (i % 3 == 0) {
     
         elemento.classList.add('green');
-        elemento.innerHTML = 'Fizz'
+        elemento.innerHTML = 'Fizz';
+        console.log('Fizz');
     
     } else if (i % 5 == 0) {
     
         elemento.classList.add('yellow');
-        elemento.innerHTML = 'Buzz'
+        elemento.innerHTML = 'Buzz';
+        console.log('Buzz');
         
+    } else {
+        console.log(i)
     }
 
-    squaresContainer.append(elemento)
+    squaresContainer.append(elemento);
 
-    console.log(elemento)
-    console.log(i)
+    
     
 }
 
